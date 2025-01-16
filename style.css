@@ -1,0 +1,113 @@
+:root{
+    --primary-color:#651fff;
+    --sizing:100px 0px
+}
+.banner{
+   background-color: #EBE5FA;; 
+}
+.banner,
+.banner-bottom,
+.Lightning,
+.design,
+.decentralized{
+    padding: var(--sizing);
+    
+}
+.Lightning-wrapper>div>div>div{
+    background-color: var(--primary-color);
+    padding: 70px 30px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.design-wrapper > div > div:first-child > div,
+.design-wrapper > div > div:last-child > div{
+    padding: 60px 60px 0px 60px;
+    border-radius: 30px;
+}
+.design-wrapper>div>div:first-child>div{
+    background-color: #FFF7ED;
+}
+.design-wrapper>div>div:last-child>div{
+    background-color: #E0F7FA;
+}
+.design-wrapper > div > div{
+    padding: 60px 60px 0px 60px;
+}
+
+.word-color{
+    color:var(--primary-color)
+}
+.design-team-wrapper>div{
+    background-color: #ECECFE;
+    padding: 40px;
+    border-radius: 30px;
+}
+.design-wrapper > div > div img{
+    width: 50%;
+}
+.design-team-wrapper img{
+    width: 50%;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size:23px;
+}
+h3{
+    font-size:30px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+#bg{
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+@media  only screen and (min-width:1100px) {
+    h1{
+        font-size: 56px;
+    }
+    h2{
+        font-size:36px;
+    }
+    h3{
+        font-size:28px;
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+@media  only screen and (min-width:960px) {
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size:26px;
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .design-team-wrapper p{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .design-wrapper > div > div img{
+        width: 100%;
+    }
+    .design-team-wrapper img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .container-fluid{
+        max-width: 1500px;
+    }
+}
